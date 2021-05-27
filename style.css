@@ -1,0 +1,32 @@
+body{
+  background-color: #e1e1e1;
+}
+#board{
+  width:320px;
+}
+.column{
+  width:30px;
+  height:30px;
+  border:1px solid gray;
+}
+
+.cell{
+  float:left;
+  width:30px;
+  height:30px;
+  border:1px solid gray;
+  color:gray;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  cursor:pointer;
+}
+/* .cell:hover{
+  background-color:#e1e1e1;
+} */
+
+
+.snake-head{
+  background-color:darkcyan;
+
+}
